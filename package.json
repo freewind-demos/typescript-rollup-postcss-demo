@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "rollup -c && node bundle.js"
+    "demo": "rm -rf ./dist && rollup -c && node bundle.js"
   },
   "dependencies": {
     "@types/lodash": "4.14.138",
