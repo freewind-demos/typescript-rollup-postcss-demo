@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "rm -rf ./dist && rollup -c && node bundle.js"
+    "demo": "rm -rf ./dist && rollup -c && open index.html"
   },
   "dependencies": {
     "@types/lodash": "4.14.138",
@@ -9,6 +9,8 @@
     "typescript": "3.6.2"
   },
   "devDependencies": {
-    "rollup": "1.20.3"
+    "postcss-nested": "4.1.2",
+    "rollup": "1.20.3",
+    "rollup-plugin-postcss": "2.0.3"
   }
 }
